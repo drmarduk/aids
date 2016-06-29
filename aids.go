@@ -67,7 +67,7 @@ func Upload(filename string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	r, err := http.NewRequest("POST", "http://i.aidskrebs.net/upload", body)
+	r, err := http.NewRequest("POST", "http://img.knilch.net/upload", body)
 	if err != nil {
 		return "", err
 	}
